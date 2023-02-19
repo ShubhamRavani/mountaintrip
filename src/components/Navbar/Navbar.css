@@ -1,0 +1,88 @@
+.app__navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 2rem;
+  background: #d9d9d973;
+  box-shadow: rgba(217, 217, 217, 0.45);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(217, 217, 217, 0.45);
+  position: fixed;
+}
+.app__navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app__navbar-logo img {
+  width: 40px;
+  height: 40px;
+  margin-left: 60px;
+  background: transparent;
+  object-fit: contain;
+}
+@media screen and (min-width: 2000px) {
+  .app__navbar-logo img {
+    width: 180px;
+    height: 40px;
+  }
+}
+
+.app__navbar-logo1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.app__navbar-logo1 img {
+  width: 60px;
+  height: 50px;
+  margin-right: 60px;
+  background: transparent;
+  object-fit: contain;
+}
+@media screen and (min-width: 2000px) {
+  .app__navbar-logo1 img {
+    width: 180px;
+    height: 40px;
+  }
+}
+
+.app__navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-right: 630px;
+}
+
+.app__navbar-links li {
+  margin: 0 2rem;
+  cursor: pointer;
+  flex-direction: column;
+}
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+}
+.app__navbar-links li div {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.app__navbar-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 900px) {
+  .app__navbar-links {
+    display: none;
+  }
+}

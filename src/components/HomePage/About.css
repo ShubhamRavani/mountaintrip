@@ -1,0 +1,42 @@
+#textblock {
+  background-color: #09c2ae;
+  height: 100vh;
+}
+
+#textblock-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+#textblock-title {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Helvetica Neue";
+}
+
+#textblock-content {
+  color: #000000;
+  font-size: 20px;
+}
+
+#textblock-footer {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#textblock-shubham {
+  text-decoration: none;
+  color: #ffaf1b;
+  font-size: 20px;
+  font-weight: 900;
+}
