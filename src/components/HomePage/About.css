@@ -19,6 +19,7 @@
 #textblock-content {
   color: #000000;
   font-size: 20px;
+  text-align: justify;
 }
 
 #textblock-footer {

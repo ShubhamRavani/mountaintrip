@@ -4,26 +4,27 @@ function About() {
   return (
     <div id="textblock">
       <div id="textblock-container">
-        <h1 id="textblock-title">What is Firewatch?</h1>
+        <h1 id="textblock-title">What is Parallax?</h1>
         <p id="textblock-content">
-          The year is 1989.
+          <br />
+          Parallax is the apparent shift in the position of an object when
+          viewed from different positions. The term is often used in astronomy
+          to describe the apparent shift in the position of a star when viewed
+          from different points in the Earth's orbit around the Sun.
           <br />
           <br />
-          You are a man named Henry who has retreated from your messy life to
-          work as a fire lookout in the Wyoming wilderness. Perched atop a
-          mountain, it's your job to find smoke and keep the wilderness safe.
+          The parallax of a star is caused by the fact that we view the star
+          from different angles as the Earth moves around the Sun. This causes
+          the star to appear to move slightly against the background of more
+          distant stars. By measuring the amount of parallax, astronomers can
+          determine the distance to a star.
           <br />
           <br />
-          An especially hot, dry summer has everyone on edge. Your supervisor, a
-          woman named Delilah, is available to youat all times over a small,
-          handheld radio—and is your only contact with the world you've left
-          behind.
-          <br />
-          <br />
-          But when something strange draws you out of your lookout tower and
-          into the world below, you'll explore a wild and unknown environment,
-          facing questions and making interpersonal choices that can build or
-          destroy the only meaningful relationship you have.
+          Parallax is also used in other fields, such as in photography to
+          describe the apparent displacement of an object in a photograph as a
+          result of taking the photograph from different positions. This
+          technique is used, for example, to create 3D images or to measure
+          distances in close-up photography.
         </p>
       </div>
       <footer id="textblock-footer">
